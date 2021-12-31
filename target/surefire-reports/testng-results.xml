@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="22722" started-at="2021-12-31T22:04:45 IST" finished-at="2021-12-31T22:05:07 IST">
+    <groups>
+    </groups>
+    <test name="Android" duration-ms="22722" started-at="2021-12-31T22:04:45 IST" finished-at="2021-12-31T22:05:07 IST">
+      <class name="com.tests.ProductTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tests.ProductTests@4c762604]" name="beforeTest" is-config="true" duration-ms="16248" started-at="2021-12-31T22:04:45 IST" finished-at="2021-12-31T22:05:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel XL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HT6A10204885]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tests.ProductTests@4c762604]" name="beforeMethod" is-config="true" duration-ms="666" started-at="2021-12-31T22:05:01 IST" finished-at="2021-12-31T22:05:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ClickActivityTest()[pri:0, instance:com.tests.ProductTests@4c762604]" name="ClickActivityTest" duration-ms="4492" started-at="2021-12-31T22:05:02 IST" finished-at="2021-12-31T22:05:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickActivityTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.ProductTests@4c762604]" name="afterMethod" is-config="true" duration-ms="1270" started-at="2021-12-31T22:05:06 IST" finished-at="2021-12-31T22:05:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickActivityTest status=SUCCESS method=ProductTests.ClickActivityTest()[pri:0, instance:com.tests.ProductTests@4c762604] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.ProductTests@4c762604]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-31T22:05:07 IST" finished-at="2021-12-31T22:05:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.tests.ProductTests -->
+    </test> <!-- Android -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
